@@ -1,0 +1,17 @@
+{
+  "name": "todo_api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "author": "Sameer",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  }
+}
